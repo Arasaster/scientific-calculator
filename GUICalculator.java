@@ -20,7 +20,7 @@ public class GUICalculator implements ActionListener {
     }
 
     public void createGUI() {
-        frame = new JFrame("Calculator");
+        frame = new JFrame("GUICalculator");
         frame.setSize(300, 400);
         frame.setLayout(new BorderLayout());
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
